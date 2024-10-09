@@ -19,7 +19,7 @@ services:
 
     sonarqube-database:
         container_name: sonarqube-database
-        image: postgres:12
+        image: postgres:15
         environment:
             - POSTGRES_DB=sonarqube
             - POSTGRES_USER=sonarqube
